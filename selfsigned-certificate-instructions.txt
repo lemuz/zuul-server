@@ -1,0 +1,2 @@
+keytool -genkeypair -alias baeldung -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore baeldung.p12 -validity 3650
+cmd /c "C:\Program Files\Java\jdk-15.0.2\bin\keytool.exe" -importcert -file datasoft-certificado.cer -alias datasoft -cacerts
